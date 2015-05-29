@@ -42,7 +42,7 @@ transition: zoomin
 > 根据移动端的特性,出现了很多不同的开发模式.
 
 * Native--->Android,IOS,WP {:&.rollIn}
-* Web
+* Web(SPA,多页应用)
 * Hybrid--->phonegap,weixin-JSAPI,Lizard
 * React-Native
 
@@ -91,6 +91,11 @@ transition: zoomin
 	* 性能差
 	* 需要互联网
 	* 功能限制
+============
+## 单页应用(SPA)
+	SPA优势:用户体验好&降低服务器压力
+	SPA缺点:SEO支持不好&内存消耗大&技术门槛相对较高
+------------
 [/subslide]
 
 
@@ -141,6 +146,13 @@ transition: zoomin
 # 携程Lizard框架的实现
 
 [subslide]
+### 框架选用
+	requireJS
+	Backbone View部分(M&C重写)
+	zepto
+	underscore
+	bridge.js
+============
 ### 桥接方式
 	* confirm {:&.rollIn}
 	* URL Schemes(主流)
@@ -163,6 +175,7 @@ transition: zoomin
 	* 寻找对应的映射表，找到native对应接口api进行调用
 	* 执行javascript调用方法时传入的回调string并添加数据
 	* webview解析string转化为javascript进行调用
+
 [/subslide]
 
 
