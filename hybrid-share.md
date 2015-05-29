@@ -42,7 +42,7 @@ transition: zoomin
 > 根据移动端的特性,出现了很多不同的开发模式.
 
 * Native--->Android,IOS,WP {:&.rollIn}
-* Web(SPA,多页应用)
+* WebApp
 * Hybrid--->phonegap,weixin-JSAPI,Lizard
 * React-Native
 
@@ -93,8 +93,8 @@ transition: zoomin
 	* 功能限制
 ============
 ## 单页应用(SPA)
-	SPA优势:用户体验好&降低服务器压力
-	SPA缺点:SEO支持不好&内存消耗大&技术门槛相对较高
+	* SPA优势:用户体验好&降低服务器压力
+	* SPA缺点:SEO支持不好&内存消耗大&技术门槛相对较高
 ------------
 [/subslide]
 
@@ -147,11 +147,11 @@ transition: zoomin
 
 [subslide]
 ### 框架选用
-	requireJS
-	Backbone View部分(M&C重写)
-	zepto
-	underscore
-	bridge.js
+	* requireJS (模块加载)
+	* Backbone View部分 (MVC:M&C重写)
+	* zepto (DOM)
+	* underscore (工具库)
+	* bridge.js (桥接)
 ============
 ### 桥接方式
 	* confirm {:&.rollIn}
